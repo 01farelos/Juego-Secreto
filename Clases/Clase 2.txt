@@ -1,0 +1,41 @@
+
+Las funciones juegan un papel central en la programación y en el desarrollo de software, permitiendo encapsular bloques de código reutilizables y ejecutables. Pueden ser definidas para realizar tareas específicas, desde cálculos simples hasta la manipulación compleja de datos. Las funciones en JavaScript pueden tener o no parámetros, así como devolver o no valores.
+
+Tipo de Función	Ejemplo de Código	Uso
+Sin retorno e sem parâmetros	function saludo() { ... }	Execução de um bloco de código simples.
+Sin retorno e com parâmetros	function saludar(nombre) { ... }	Execução de um bloco de código com argumentos.
+Com retorno e sem parâmetros	function generarNumeroAleatorio() { ... }	Cálculo e retorno de um valor específico.
+Com retorno e com parâmetros	function sumar(a, b) { ... }	Cálculo e retorno baseado em argumentos.
+Função anônima	let saludo = function() { ... };	Definição de uma função sem nome localmente.
+Arrow function	let cuadrado = x => x * x;	Definição concisa de funções curtas.
+Su uso es esencial para crear aplicaciones dinámicas, interactivas y eficientes en JavaScript. Sin embargo, no es necesario que crees todos los tipos de funciones en este momento. Sigue las lecciones y ten en cuenta que estas variaciones existen, y a medida que surja la necesidad, profundizaremos cada vez más en la lógica y JavaScript.
+
+Saber cómo usar funciones es uno de los conceptos fundamentales en la programación y el desarrollo de software. Las funciones desempeñan un papel crucial en la organización, modularización y reutilización del código.
+
+Con eso en mente, hemos creado una lista de actividades (opcionales) centradas en la práctica para mejorar aún más tu experiencia de aprendizaje. ¡Así que vamos a practicar!
+
+Desafíos:
+Crear una función que muestre "¡Hola, mundo!" en la consola.
+Crear una función que reciba un nombre como parámetro y muestre "¡Hola, [nombre]!" en la consola.
+Crear una función que reciba un número como parámetro y devuelva el doble de ese número.
+Crear una función que reciba tres números como parámetros y devuelva su promedio.
+Crear una función que reciba dos números como parámetros y devuelva el mayor de ellos.
+Crear una función que reciba un número como parámetro y devuelva el resultado de multiplicar ese número por sí mismo.
+Si necesitas ayuda, las opciones de solución a las actividades estarán disponibles en la sección "Opinión del instructor".
+
+ Para ayudarte a revisar tus códigos, te dejo disponible una posible solución de los desafíos en este enlace para que puedas construir o validar tus soluciones. ¡Buena suerte en tus estudios!
+https://github.com/alura-es-cursos/js-curso/blob/main/2.md
+
+
+En esta aula:
+
+Creamos una función en JavaScript que recibe 2 parámetros para generar un número aleatorio y entendimos cómo utilizar la estructura de una función para encapsular un bloque de código reutilizable.
+Utilizamos la palabra clave "return" dentro de la función para devolver el valor del número aleatorio generado y creamos otra función llamada "exibirMensageInicial" que no tiene ni retorno ni parámetros.
+Comprendimos la diferencia entre funciones con retorno y funciones sin retorno, y aprendimos cómo llamar e invocar la función para mostrar un mensaje inicial en la pantalla.
+Vimos cómo los parámetros y los valores de retorno son importantes para la comunicación entre funciones y el resto del programa.
+En la próxima aula:
+
+Aprenderemos cómo reiniciar el juego y reforzaremos todo el conocimiento que hemos adquirido hasta ahora.
+
+
+

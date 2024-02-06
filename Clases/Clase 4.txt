@@ -1,0 +1,102 @@
+
+Has sido encargado(a) de crear un pequeño programa para gestionar una lista de compras. El programa debe permitir que el usuario agregue elementos a la lista y luego mostrar el contenido de la lista en la pantalla. Además, el usuario debe poder ver un elemento específico de la lista ingresando el índice del elemento deseado.
+
+let listaCompras = [];
+
+listaCompras.push("Manzana");
+listaCompras.push("Arroz");
+listaCompras.push("Leche");
+listaCompras.push("Pan");
+listaCompras.push("Carne");
+
+
+listaCompras.length muestra la cantidad de elementos de una lista.
+
+La propiedad "length" se utiliza para obtener la cantidad de elementos en una lista o array en JavaScript.
+
+Alternativa correta
+El código listaCompras[3] mostrará el elemento Pan.
+
+El código listaCompras[3] en realidad mostrará el elemento "Pan", ya que el índice 0 corresponde a "Manzana", 1 a "Arroz", 2 a "Leche" y 3 a "Pan".
+
+
+Un array, arreglo o lista en JavaScript es una estructura de datos que permite almacenar y organizar múltiples valores en una sola variable. Los valores en un array pueden ser de cualquier tipo de dato, como números, strings, objetos, otros arrays, y así sucesivamente. Los arrays en JavaScript son indexados, lo que significa que cada valor dentro de ellos está asociado con un índice numérico, generalmente comenzando desde el índice 0.
+
+Creando un array
+Puedes crear un array en JavaScript declarando una variable y asignándole valores entre corchetes [].
+
+let frutas = ["Manzana", "Uva", "Naranja"];
+COPIA EL CÓDIGO
+Accediendo a los valores Los elementos de un array se acceden mediante índices numéricos, que comienzan en 0.
+
+Índice	Elemento
+0	"Manzana"
+1	"Uva"
+2	"Naranja"
+console.log(frutas[0]); // Salida: "Manzana"
+console.log(frutas[2]); // Salida: "Naranja"
+COPIA EL CÓDIGO
+Añadiendo nuevos elementos
+Para agregar un elemento al final del array, puedes usar el método push.
+
+frutas.push("Fresa");
+console.log(frutas); // Salida: ["Manzana", "Uva", "Naranja", "Fresa"]
+COPIA EL CÓDIGO
+Eliminando el último elemento
+Para eliminar el último elemento, puedes usar el método pop.
+
+frutas.pop();
+console.log(frutas); // Salida: ["Manzana", "Uva", "Naranja"]
+COPIA EL CÓDIGO
+¿Qué lenguajes de programación utilizan arrays?
+Aquí tienes una lista de algunos lenguajes de programación que utilizan arrays:
+
+JavaScript
+Python
+Java
+C++
+C#
+Ruby
+PHP
+Swift
+Kotlin
+Go
+Otros lenguajes también admiten el uso de arrays o estructuras de datos similares para almacenar colecciones de valores. Aprender sobre arrays es importante porque desempeñan un papel fundamental en el desarrollo de aplicaciones de software.
+
+Las listas o arrays proporcionan una manera eficiente de almacenar y acceder a conjuntos de datos, lo que permite a los programadores organizar la información de manera lógica y manipular estos datos de manera efectiva.
+
+Con el conocimiento de cómo trabajar con arrays, es posible crear algoritmos más poderosos, resolver problemas de programación de manera más eficiente y crear aplicaciones más dinámicas e interactivas.
+
+
+Saber cómo usar las funciones es uno de los conceptos fundamentales en la programación y el desarrollo de software. Las funciones desempeñan un papel crucial en la organización, modularización y reutilización del código.
+
+Con eso en mente, hemos creado una lista de desafíos (no obligatorios) centrados en la práctica para mejorar aún más tu experiencia de aprendizaje. ¡Vamos a practicar entonces!
+
+Desafíos
+Crea una lista vacía llamada "listaGenerica".
+Crea una lista de lenguajes de programación llamada "lenguagesDeProgramacion con los siguientes elementos: 'JavaScript', 'C', 'C++', 'Kotlin' y 'Python'.
+Agrega a la lista "lenguagesDeProgramacion los siguientes elementos: 'Java', 'Ruby' y 'GoLang'.
+Crea una función que muestre en la consola todos los elementos de la lista "lenguagesDeProgramacion.
+Crea una función que muestre en la consola todos los elementos de la lista "lenguagesDeProgramacion en orden inverso.
+Crea una función que calcule el promedio de los elementos en una lista de números.
+Crea una función que muestre en la consola el número más grande y el número más pequeño en una lista.
+Crea una función que devuelva la suma de todos los elementos en una lista.
+Crea una función que devuelva la posición en la lista donde se encuentra un elemento pasado como parámetro, o -1 si no existe en la lista.
+Crea una función que reciba dos listas de números del mismo tamaño y devuelva una nueva lista con la suma de los elementos uno a uno.
+Crea una función que reciba una lista de números y devuelva una nueva lista con el cuadrado de cada número.
+Si necesitas ayuda, las soluciones a las actividades estarán disponibles en la sección "Opinión del instructor".
+
+
+Para ayudarte a revisar tus códigos, te dejo disponible una posible solución de los desafíos en este enlace para que puedas construir o validar tus soluciones.
+https://github.com/alura-es-cursos/js-curso/blob/main/4.md
+
+En esta aula:
+
+Aprendimos a mejorar el código existente, haciéndolo más eficiente y legible. En este caso, refactorizamos la función que realiza el sorteo del número secreto, haciéndola más sólida y asegurando que el número sorteado no se repita;
+Creamos una cuenta en Github con un repositorio para subir nuestro código a la nube y publicamos nuestro proyecto en la plataforma Vercel, lo que permite que sea accesible desde cualquier lugar.
+En la próxima aula:
+
+Tendrás la oportunidad de poner en práctica todo el conocimiento que has adquirido resolviendo un desafío. ¡Hasta entonces, buena suerte!
+
+
+
